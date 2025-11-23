@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+     <style></style>
+    </head>
+
+    <body>
+        <nav id="top">
+            <h1>My Portfolio</h1>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <img src="image.jpg" alt="Profile photo of Meghna" class="profile" height="150px" width="140px">
+            <p>Hey!! I am Meghna Kumar, I am passionate about learning web development and focused on creating user-friendly, accessible websites.</p>
+        </section>
+        <section id="skills">
+            <h2>My Skills</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>Python</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>GitHub</td>
+                            <td>Beginner</td>
+                        </tr>
+                    </tbody>
+                </table>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div id="project1">
+                <h3>Project 1</h3>
+                <p>A simple HTML & CSS webpage</p>
+            </div>
+            <div id="project2">
+                <h3>Project 2</h3>
+                <p>A mini project</p> 
+            </div>  
+        </section>
+
+        
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <table>
+                    <tr>
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                    </tr>
+                    <tr>  
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="Enter your email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea id="message" name="message" placeholder="Enter your message" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <button type="submit">Send</button></td>
+
+                    </tr>
+                </table>
+            </form>
+        </section>
+       
+            <a href="#top">
+    <button type="button" class="back-to-top-btn">Back to Top</button>
+  </a>
+       
+    </body>
+</html>
